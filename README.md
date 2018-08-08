@@ -72,6 +72,21 @@ Commands:
   Note: This command will copy the newly generated public key to your remote server(vm)
   
  ```
+ The above command might result in an error and this is how one would go about fixing it:
+ 
+ Error:
+ 
+ ```
+  /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/demo/.ssh/id_rsa.pub"
+  /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+  /usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+  Permission denied (publickey).
+  
+ ```
+ 
+ Fix: 
+ 
+ 
  
   
 
