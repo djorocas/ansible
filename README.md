@@ -65,7 +65,7 @@ Commands:
   
  ```
   he authenticity of host 'xxx.xxx.xxx.xx2 (xxx.xxx.xxx.xx2)' can't be established.
-  ECDSA key fingerprint is SHA256:ocAFWJpZrLSJEfiRPnWGwoUftBhJkxTxUlK5rxcOuOA.
+  ECDSA key fingerprint is SHA256:IGCMk6GAHSY1kFsKVejOSWT33KZVZ8bVY3RUZXTZ.
   Are you sure you want to continue connecting (yes/no)? yes
   Warning: Permanently added 'xxx.xxx.xxx.xx2' (ECDSA) to the list of known hosts.
   Permission denied (publickey).
