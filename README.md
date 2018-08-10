@@ -42,6 +42,12 @@ Commands:
   
   node1 ansible_user="<username>" e.g. node1 ansible_user=djobukata
  ```
+ 
+ ### Test Ansible to all Hosts
+ 
+ ```
+ $ ansible -m ping all
+ ```
   
  ### Test if you can ssh into node1 vm 
  
