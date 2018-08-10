@@ -19,6 +19,30 @@ Commands:
   $ sudo apt-get install ansible
   ```
   
+  
+ ### Host configuration
+ 
+ ```
+  $ nano /etc/hosts
+  
+  Add the following 
+  
+  <host_private_ip> <host_name> e.g. 10.X.X.X anyName
+  
+ ```
+ 
+ Then specify ansible hosts
+ 
+ ```
+ $ nano /etc/ansible/hosts
+  
+  Add the following:
+  
+  [demo_hosts]
+  
+  node1 ansible_user="<username>" e.g. node1 ansible_user=djobukata
+ ```
+  
  ### Test if you can ssh into node1 vm 
  
  ```$ ssh <remote>@<ip>```
