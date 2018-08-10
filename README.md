@@ -48,6 +48,14 @@ Commands:
  ```
  $ ansible -m ping all
  ```
+ Expected:
+ 
+ ```
+ node1 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+ ```
   
  ### Test if you can ssh into node1 vm 
  
