@@ -64,10 +64,10 @@ Commands:
  You might get the below error
   
  ```
-  he authenticity of host '51.140.159.202 (51.140.159.202)' can't be established.
+  he authenticity of host 'xxx.xxx.xxx.xx2 (xxx.xxx.xxx.xx2)' can't be established.
   ECDSA key fingerprint is SHA256:ocAFWJpZrLSJEfiRPnWGwoUftBhJkxTxUlK5rxcOuOA.
   Are you sure you want to continue connecting (yes/no)? yes
-  Warning: Permanently added '51.140.159.202' (ECDSA) to the list of known hosts.
+  Warning: Permanently added 'xxx.xxx.xxx.xx2' (ECDSA) to the list of known hosts.
   Permission denied (publickey).
   
   Note: This error, just tells you that you don\'t have access to ssh from host to vm
@@ -88,7 +88,7 @@ Commands:
     Your identification has been saved in /home/demo/.ssh/id_rsa.
     Your public key has been saved in /home/demo/.ssh/id_rsa.pub.
     The key fingerprint is:
-    SHA256:7T+IGrMk6BAJSY1kKsKkejOSWK33KZVZ8bUY3RUZWTY demo@ansible
+    SHA256:7K+IGCMk6GAHSY1kFsKVejOSWT33KZVZ8bVY3RUZXTZ demo@ansible
     The key's randomart image is:
     +---[RSA 2048]----+
     |.=o     . .... EX|
