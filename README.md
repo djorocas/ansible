@@ -142,7 +142,7 @@ Commands:
      target: remote hosts 
      module: commands that can be executed on the remote host
 
-     e.g. ansible demo_hosts -m copy -a "src=/tmp/test1 dest=/tmp/test2"
+     ```e.g. ansible demo_hosts -m copy -a "src=/tmp/test1 dest=/tmp/test2"```
  
  2. Playbook (A playbook is a set of sequential tasks)
  
