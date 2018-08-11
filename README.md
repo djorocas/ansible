@@ -155,8 +155,8 @@ Commands:
  
  ### Ansible Facts 
  
- Facts are details or piece of information collected from a remote host. 
- Information derived from talking with one's remote systems. They can be 
+ Facts are details or piece of information collected from remote hosts,  
+ information derived from talking with remote systems. They can be 
  used for grouping nodes by the type of OS they are running or filtering 
  nodes based on the amount of RAM they have.
  
@@ -167,7 +167,7 @@ Commands:
  
  Ansible uses facts, which are mainly system environment information and 
  uses these facts to check the states and verify whether it needs 
- to change anything (on the remote nodes) in order to get a desired outcome.
+ to change anything (on the remote hosts) in order to get a desired outcome.
  
  This makes it really safe to run Ansible playbook over and over again.
 
