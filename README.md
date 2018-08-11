@@ -134,6 +134,16 @@ Commands:
  
  1. Ad-hoc approach (Run Ansible commands in our terminal window)
  
+ Ad-hoc commands are a good learning and experimentation as well and can used for things that one does not want to write 
+ a playbook for.
+ 
+ An ad-hoc command follows the following synthax: ```ansible <target> -m <module-name> -a <arguments> ```
+ 
+ target: remote hosts 
+ module: commands that can be executed on the remote host
+ 
+ e.g. ansible demo_hosts -m copy -a "src=/tmp/test1 dest=/tmp/test2"
+ 
  2. Playbook (A playbook is a set of sequential tasks)
  
  ### Ansible Facts 
