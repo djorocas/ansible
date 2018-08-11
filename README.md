@@ -140,7 +140,9 @@ Commands:
      An ad-hoc command follows the following synthax: ```ansible <target> -m <module-name> -a <arguments> ```
 
      ```target:``` remote hosts 
+     
      ```module:``` commands that can be executed on the remote host. to view all module run the following command ```$ ansible-doc -l ```
+     
 
      ```
         $ nano /tmp/test1  then Add the following line "From source"
