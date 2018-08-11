@@ -177,6 +177,13 @@ Commands:
  ```$ ansible <HOST_NAME> -m setup -a "gather_subset=network, virtual" ```
 
  ### Ansible Variables 
+ 
+ Valid Ansible variables names:
+ 
+ - Cannot use "-" (hyphen)
+ - Can be alphanumeric
+ - Should start with an alphabet
+ 
  ### Ansible Sections
  
  
