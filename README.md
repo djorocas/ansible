@@ -154,6 +154,23 @@ Commands:
  2. Playbook (A playbook is a set of sequential tasks)
  
  ### Ansible Facts 
+ 
+ Facts are details or piece of information collected from a remote host. 
+ Information derived from talking with one's remote systems. They can be 
+ used for grouping nodes by the type of OS they are running or filtering 
+ nodes based on the amount of RAM they have.
+ 
+ Facts are: IP Adresses, RAM, OS ...
+ 
+ Ansible gathers context before running tasks, this context is part of 
+ the facts collected by Ansible.
+ 
+ Ansible uses facts, which are mainly system environment information and 
+ uses these facts to check the states and verify whether it needs 
+ to change anything (on the remote nodes) in order to get a desired outcome.
+ 
+ This makes it really safe to run Ansible playbook over and over again.
+
  ### Ansible Variables 
  ### Ansible Sections
  
