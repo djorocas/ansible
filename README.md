@@ -126,6 +126,22 @@ Commands:
  
  
  
+ ## Ansible Tasks
+ 
+ ### Ansible commands
+ 
+ One can run Ansible commands in one of the 2 ways below
+ 
+ 1. Ad-hoc approach (Run Ansible commands in our terminal window)
+ 
+ 2. Playbook (A playbook is a set of sequential tasks)
+ 
+ ### Ansible Facts 
+ ### Ansible Variables 
+ ### Ansible Sections
+ 
+ 
+ 
   
 
   
