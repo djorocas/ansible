@@ -170,6 +170,11 @@ Commands:
  to change anything (on the remote hosts) in order to get a desired outcome.
  
  This makes it really safe to run Ansible playbook over and over again.
+ 
+ Facts are collected using ```setup```
+ 
+ ```$ ansible all-m setup``` gets details of all hosts
+ ```$ ansible all-m setup -a "gather_subset=network, virtual" ```
 
  ### Ansible Variables 
  ### Ansible Sections
