@@ -182,7 +182,8 @@ Commands:
   
  ## References
  
- 1. http://lifeonubuntu.com/ubuntu-missing-add-apt-repository-command/
+ 1. http://lifeonubuntu.com/ubuntu-missing-add-apt-repository-command/ (Environment)
+ 2. https://medium.com/@jezhalford/ansible-custom-facts-1e1d1bf65db8 (Ansible Facts)
  
  
  
