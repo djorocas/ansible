@@ -1,4 +1,4 @@
-# Ansible_learning
+# Ansible learning
 step by step Ansible with MS Azure 
 
 ## Getting started 
