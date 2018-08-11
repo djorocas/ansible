@@ -139,10 +139,15 @@ Commands:
 
      An ad-hoc command follows the following synthax: ```ansible <target> -m <module-name> -a <arguments> ```
 
-     target: remote hosts 
-     module: commands that can be executed on the remote host
+     ```target:``` remote hosts 
+     ```module:``` commands that can be executed on the remote host. to view all module run the following command ```$ ansible-doc -l ```
 
-     ```e.g. ansible demo_hosts -m copy -a "src=/tmp/test1 dest=/tmp/test2"```
+     ```
+        $ nano /tmp/test1  then Add the following line "From source"
+        Check that the file was created
+        $ cd /tmp/
+        $ ansible demo_hosts -m copy -a "src=/tmp/test1 dest=/tmp/test1"
+     ```
  
  2. Playbook (A playbook is a set of sequential tasks)
  
