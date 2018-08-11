@@ -184,7 +184,20 @@ Commands:
  - Can be alphanumeric
  - Should start with an alphabet
  
+ Variables can be defined in ```Inventory``` which is located at ```/etc/ansible/ansible.cfg```
+ 
  ### Ansible Sections
+ 
+ Sections nedeed in Ansible playbook which are:
+ 
+ - Target Setction 
+ - Variable Section 
+ - Task section 
+ - Handler Section 
+ - Loops 
+ - Conditionals 
+ - Until
+ - Notify
  
  
  
