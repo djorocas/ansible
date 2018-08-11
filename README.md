@@ -173,8 +173,8 @@ Commands:
  
  Facts are collected using ```setup```
  
- ```$ ansible all-m setup``` gets details of all hosts
- ```$ ansible all-m setup -a "gather_subset=network, virtual" ```
+ ```$ ansible <HOST_NAME> -m setup``` gets details of all hosts
+ ```$ ansible <HOST_NAME> -m setup -a "gather_subset=network, virtual" ```
 
  ### Ansible Variables 
  ### Ansible Sections
