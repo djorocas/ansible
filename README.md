@@ -27,7 +27,7 @@ Commands:
   
   Add the following 
   
-  <host_private_ip> <host_name> e.g. 10.X.X.X anyName
+  <host_private_ip> <host_name> e.g. 10.X.X.X node1
   
  ```
  
